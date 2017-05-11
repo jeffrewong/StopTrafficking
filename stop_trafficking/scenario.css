@@ -1,0 +1,52 @@
+/* Harry, Muhammad, Jeffrey, David, Alexis */
+#nextBtn, #startbuttonid
+{
+	font-size:20pt;
+	width: 120px;
+	height: 50px;
+	border-radius: 12px;
+	border-style: none;
+	margin-right: 15px;
+	cursor: pointer;
+	background-color: #5FD93F;
+	margin-left:85%;
+}
+#titleid, #startid
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20pt;
+	color: #FFF5C3;
+}
+.scenario
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15pt;
+	color: #9D84AA;
+}
+#correctid
+{
+	color: green;
+}
+#ustoopidid
+{
+	color: red;
+}
+.op
+{
+	font-size:20pt;
+	border-radius: 12px;
+	border-style: none;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.op:hover
+{
+	background-color: #5FD93F;
+	color: #D10429;
+}
+#score
+{
+	font-size:20pt;
+	font-family: 'Ubuntu', sans-serif;
+	color: #9D84AA;
+}

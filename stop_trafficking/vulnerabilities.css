@@ -1,0 +1,37 @@
+/* Harry, Muhammad, Jeffrey, David, Alexis */
+#titleVul, #titleWarning
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:35pt;
+	color: #D10429;
+	text-align: center;
+	text-decoration: underline;
+}
+.desc
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:20pt;
+	color: #F8F8FF;
+}
+.lists
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15pt;
+	color: #5FD93F;
+	margin-bottom: 10px;
+}
+.subList
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15pt;
+	color: white;
+	margin-bottom:10px;
+}
+.wut
+{
+	padding-bottom:10px;
+}
+.david
+{
+	padding-bottom: 5px;
+}

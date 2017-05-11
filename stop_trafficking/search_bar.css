@@ -1,0 +1,24 @@
+/* Harry, Muhammad, Jeffrey, David, Alexis */
+.result_count
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30pt;
+	color: #D10429;
+	padding-right:50px;
+}
+.word
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20pt;
+	color: #FFF5C3;
+	padding-bottom: 10px;
+	text-decoration: underline;
+	padding-right:50px;
+}
+.define
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15pt;
+	color: #9D84AA;
+	padding-bottom: 10px;
+}

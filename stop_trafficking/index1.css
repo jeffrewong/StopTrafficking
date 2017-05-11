@@ -1,0 +1,181 @@
+/* Harry, Muhammad, Jeffrey, David, Alexis */
+.list
+{
+	list-style-type: none;
+}
+li
+{
+	margin-left:-25px;
+}
+.top
+{
+	width:100%;
+}
+.body
+{
+	background-color: #90d3ff;
+}
+.content
+{
+	margin-left:25px;
+	margin-right:25px;
+	margin-top: 25px;
+	height:305px;
+	border-radius:10px;
+	background-color: rgba(0, 0, 0, .75);
+	display: block;
+}
+.text_holder
+{
+	cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	width: 175px;
+	text-align: center;
+	word-spacing: 10px;
+}
+.nav_bar
+{
+	background-color:#5FD93F;
+	margin-left: -8px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:100%;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+}
+.search_bar
+{
+	float:right;
+}
+.text_holder, .search_bar
+{
+	display: inline-block;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25pt;
+	color: #FFF5C3;
+	border-top-left-radius:15px;
+	border-top-right-radius:15px;
+}
+.text_holder,#drop_down
+{
+	padding: 10px;
+	background-color: #5FD93F;
+}
+.drop_down
+{
+	margin-bottom: 15px;
+	margin-right: 10px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #FFF5C3;
+}
+#drop_down
+{
+	position: absolute;
+	z-index:99;
+	width: 175px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	margin-right: -8px;
+	margin-left: -8px;
+	margin-top:-10px;
+	cursor: pointer;
+}
+.text
+{
+	color: #F8F8FF;
+}
+.input_bar
+{
+	padding-left: 15px;
+	padding-top: 10px;
+	height: 40px;
+	width: 500px;
+	border-radius: 12px;
+	border-style: none;
+}
+.submit
+{
+	font-size:20pt;
+	width: 50px;
+	height: 50px;
+	border-radius: 12px;
+	border-style: none;
+	margin-right: 15px;
+}
+.quote
+{
+	float: right;
+	display: inline-block;
+	font-family: 'Vast Shadow', cursive;
+	font-size: 16pt;
+	color: #D10429;
+}
+.text_holder:hover
+{
+	background-color: #FFF5C3;
+	color: #5FD93F;
+}
+.drop_down:hover
+{
+	color: #D10429;
+}
+.footer
+{
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+a
+{
+	text-decoration: none;
+}
+.footer_links
+{
+	color: #D10429;
+}
+.left_foot
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14pt;
+	color: #D10429;
+
+}
+.right_foot
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:14pt;
+	float:right;
+}
+.social_media_icon
+{
+	vertical-align: middle;
+}
+#statement
+{
+	margin: 50px;
+	width: 49%;
+	position: relative;
+	top:40%;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 32pt;
+	color:burlywood;
+}
+input[type = "text"]
+{
+	font-size: 15pt;
+}
+.imgz
+{
+	position:relative;
+	bottom:30px;
+	margin-left:25px;
+	margin-right:25px;
+	float:right;
+}
+.statement
+{
+	margin-top:20px;
+	margin-left:25px;
+	margin-right:25px;
+}

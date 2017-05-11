@@ -1,0 +1,79 @@
+<!DOCTYPE HTMl>
+<!-- Harry, Muhammad, Jeffrey, David, Alexis -->
+<html>
+	<head>
+		<link rel="shortcut icon" href="icon.ico">
+		<title>
+			ECPAT-USA: Empowering the Youth
+		</title>		
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Vast+Shadow' rel='stylesheet' type='text/css'>
+		<link rel = "stylesheet" type="text/css" href = "index.css">
+		<link rel = "stylesheet" type="text/css" href = "contactUs.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script type="text/javascript" src = "index.js"></script>
+	</head>
+	<body class = "body" onload = "start();">
+		<div class = "top">
+			<img src = "logo1.png" class = "logo" onclick = "location.href='index.html'"/>
+			<span class = "quote">
+				Trafficking ends here.
+			</span>
+		</div>
+		<br/>
+		<div class = "nav_bar">
+			<span class = "text_holder" onclick = "menu_change();">
+				&#9776 Menu
+			</span>
+			<span class = "search_bar">
+				<form method = "post" action = "search_bar.php">
+					<input class = "input_bar" type = "text" name = "query" placeholder = "Search for terms">
+					<input class = "submit" type = "submit" name = "submit" value = "&#128269">
+				</form>
+			</span>
+		</div>
+		<span id = "drop_down">
+			<ul class = "list">
+				<li class = "drop_down" onclick = "location.href = 'terms_table.php'">Dictionary</li>
+				<li class = "drop_down" onclick = "location.href = 'scenario.html'">Choices Quiz</li>
+				<li class = "drop_down" onclick = "location.href = 'stats.html'">Statistics</li>
+				<li class = "drop_down" onclick = "location.href = 'myth_busters.html'">Myth vs Reality</li>
+				<li class = "drop_down" onclick = "location.href = 'vulnerabilities.html'">Vulnerabilities</li>
+				<li class = "drop_down" onclick = "location.href = 'contactUs.html'">Contact Us</li>
+			</ul>
+		</span>
+		<div class = "content">
+			<span class = "form">
+				<form method = "post" id = "contact" action="sent.php">
+					<span class = "heading" >Name (Optional):</span>
+					<br>
+					<input class = 'input' type="text" name="username">
+					<br>
+					<span class = "heading">Email (Optional):</span>
+					<br>
+					<input class = 'input' type="text" name="email">
+					<br>
+					<span class = "heading">Message:</span>
+					<br>
+					<textarea class = 'input' class = "msg" rows="10" cols="50" name="message" form="contact" maxlength="255" placeholder = 'Enter text here...' required></textarea>
+					<br>
+					<input class = 'submit1' type="submit" value="Submit">
+				</form>	
+			</span>
+		</div>
+		<hr>
+		<div class = "footer">
+			<span class = "left_foot">
+				Designed by: RS Life
+			</span>
+			<span class = "right_foot">
+				<img src = "website.png" class = "social_media_icon"/> 
+				<a class = "footer_links" href="http://www.ecpatusa.org/home">Visit ECPAT-USA's site</a>
+				<img src = "fb_logo.png" class = "social_media_icon"/> 
+				<a class = "footer_links" href="https://www.facebook.com/ECPATUSA">Follow ECPAT-USA on Facebook</a>
+				<img src = "twitter_logo.png" class = "social_media_icon"/> 
+				<a class = "footer_links" href="https://twitter.com/ecpatusa">Follow ECPAT-USA on Twitter</a>
+			</span>
+		</div>
+	</body>
+</html>

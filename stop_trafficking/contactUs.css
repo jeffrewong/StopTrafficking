@@ -1,0 +1,32 @@
+/* Harry, Muhammad, Jeffrey, David, Alexis */
+.form
+{
+	text-align:center;
+}
+.input
+{
+	border-radius:10px;
+	margin-bottom:15px;
+	padding: 5px;
+}
+.heading
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25pt;
+	color: #FFF5C3;
+	display: inline-block;
+	padding-bottom: 15px;
+}
+.submit1
+{
+	font-size:20pt;
+	border-radius: 12px;
+	border-style: none;
+	cursor: pointer;
+	background-color: #5FD93F;
+	width: 100px;
+}
+.submit1:hover
+{
+	color: #D10429;
+}
